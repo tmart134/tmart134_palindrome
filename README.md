@@ -5,7 +5,7 @@
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add tmart134_palindrome
+    $ bundle exec rake install
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
@@ -13,10 +13,6 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
 
-## Development
-
-## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/tmart134_palindrome.
