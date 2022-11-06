@@ -13,7 +13,11 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://github.com/tmart134/tmart134_palindrome"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+
+  if spec.respond_to?(:metadata)
+    spec.metadata["allowed_push_host"] = "https://rubygems.org/"
+  else
+    raise "RubyGems 2.0 or newer is required to protect against public gem pushes"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
