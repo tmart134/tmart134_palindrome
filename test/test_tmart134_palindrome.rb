@@ -13,6 +13,7 @@ class TestTmart134Palindrome < Minitest::Test
 
   def test_non_palindrome
   	refute "apple".palindrome?
+    refute "     ".palindrome?
   end
 
   def test_literal_palindrome
@@ -34,6 +35,7 @@ class TestTmart134Palindrome < Minitest::Test
   def test_integer_non_palindrome
   	refute 12345.palindrome?
   end
+  
   # def test_letters
   # 	assert_equal "MadamImAdam", "Madam, I'm  Adam.".letters
   # end
