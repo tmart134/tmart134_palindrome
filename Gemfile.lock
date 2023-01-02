@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tmart134_palindrome (0.1.1)
+    tmart134_palindrome (0.2.1)
       bundler (~> 2.3.10)
       minitest (~> 5.0)
       rake (~> 13.0)
