@@ -15,4 +15,4 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/tmart134_palindrome.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tmart134/tmart134_palindrome.
